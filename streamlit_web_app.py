@@ -14,11 +14,11 @@ def download_model():
     file_model = wget.download(model_url, out=model_name)
 
     # Import model to FastText
-    path = dir_path + "\\" + model_name
+    path = dir_path + "/" + model_name
     model = load_model(model_name)
 
     # Decrypto prediction to category name
-    category_file_name = "\\path_to_end_category.txt"
+    category_file_name = "/path_to_end_category.txt"
     path_to_end_category = {}
     with open(dir_path + category_file_name, encoding='utf8') as file:
         for line in file:

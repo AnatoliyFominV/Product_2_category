@@ -96,4 +96,4 @@ wcwidth==0.2.5
 webencodings==0.5.1
 wget==3.2
 widgetsnbextension==3.5.2
-fasttext=0.9.2
+fasttext==0.9.2
